@@ -6,7 +6,7 @@ let user;
 oracledb.getConnection(
     {
       user: "system", 
-      password: "Root123",
+      password: "Root123123",
       connectString: "@localhost:orcl"
     }, 
     function(err, connection) {
